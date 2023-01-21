@@ -1,0 +1,44 @@
+{
+    "vim.useSystemClipboard": true,
+    "vim.leader": "<space>",
+    "vim.normalModeKeyBindings": [
+    {
+      "before": ["<tab>"],
+      "commands": ["workbench.action.nextEditor"]
+    },
+    ],
+    "vim.insertModeKeyBindings": [
+    {
+      "before": ["ñ", "l"],
+      "after": ["<Esc>"]
+    },
+    ],
+    "vim.visualModeKeyBindings": [
+    {
+      "before": ["ñ", "l"],
+      "after": ["<Esc>"]
+    },
+    {
+      "before": [">"],
+      "after": [">", "g", "v"]
+    },
+    {
+      "before": ["<"],
+      "after": ["<", "g", "v"]
+    },
+    ],
+    "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["ñ", "l"],
+      "after": ["<Esc>"]
+    },
+    {
+      "before": ["<leader>", "w"],
+      "commands": ["workbench.action.splitEditor"]
+    },
+    {
+      "before": ["<leader>", "e"],
+      "commands": ["workbench.action.toggleSidebarVisibility"]
+    },
+  ],
+}
